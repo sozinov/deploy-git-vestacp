@@ -6,11 +6,7 @@ Deploying a project from git to a server with vestacp installed in two steps.
 
 2.Load the bash script server.create-hook.sh to the /home/user folder
 
-3.Run the bash script server.create-git-hook.sh from the admin user with the name of the project
-
-  bash server.create-git-hook.sh projectname.com
-   
-   , where projectname.com is the name of your project created in vestacp-> web, then a repository is automatically created in the /home/user/git/projectname.com.git folder
+3.Run the bash script server.create-git-hook.sh from the admin user with the name of the project, example: bash server.create-git-hook.sh projectname.com , where projectname.com is the name of your project created in vestacp-> web, then a repository is automatically created in the /home/user/git/projectname.com.git folder
 
 4. For deploying the project in production, from git to the server to the /home/user/web/projectname.com/public_html folder
    (for windows) you need:
